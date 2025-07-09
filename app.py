@@ -2,7 +2,7 @@ import streamlit as st
 import pickle 
 import numpy as np
 
-model=pickle.load(open("linear_regression_model.pkl",'rb'))
+model=pickle.load(open("model.pkl",'rb'))
 st.title("Salary Prediction App")
 st.write("This app predicts your salary based on years of experiance using a simple linear regression model")
 
